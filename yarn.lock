@@ -947,7 +947,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@modules/login@file:./modules/login/":
+"@modules/login@file:./modules/login":
   version "1.0.0"
   dependencies:
     "@react-navigation/native" "^5.9.2"
@@ -955,6 +955,11 @@
     react-native-keyboard-aware-scroll-view "^0.9.3"
 
 "@modules/onboarding@file:./modules/onboarding":
+  version "1.0.0"
+  dependencies:
+    react-native-app-intro-slider "^4.0.4"
+
+"@modules/onboarding@file:./modules/onboarding/":
   version "1.0.0"
   dependencies:
     react-native-app-intro-slider "^4.0.4"
